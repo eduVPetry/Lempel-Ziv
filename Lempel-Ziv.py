@@ -5,7 +5,7 @@ def input_preprocess():
 def compress():
 	'''
 	Compresses "input_text.txt" and generates "compressed_text.txt".
-	Also returns compressed pairs (as a list of 2-length tuples) to be used in the decompression.
+	Also returns compressed pairs (as a list of 2-length tuples) to be used in decompression.
 	'''
 	input_text, compressed_text, compressed_pairs, codebook, current_code = input_preprocess(), "", [], {}, 1
 
